@@ -1,0 +1,300 @@
+
+#wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.logo img{
+    min-height: 300px;
+    max-width: 1300px;
+}
+*{
+    color: black;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Arial', sans-serif;
+    /* font-family: 'FontName', sans-serif; */
+}
+.nav{
+    background-color:red;
+    display: flex;
+    max-height: 150px;
+    line-height: 100px;
+    justify-content: center;
+}
+.nav >ul >li{
+    text-align: center;
+    /* float: left; */
+    display: inline-block;
+    font-size: 25px;
+    width: 190px;
+    /* margin: 30px; */
+}
+.menu_down{
+    display: none;
+    position:absolute;
+}
+.menu li a:hover{
+    transition: color .2s ease-out;
+    background-color:orange;
+    color: rgb(148, 99, 99);
+}
+.menu a{
+    display: block;
+}
+.menu_down li{
+    text-align: center;
+    margin:0px;
+    clear: both;
+    margin: 0px auto;
+    width: 200px;
+    background-color: red;
+}
+.menu .menu_link:hover .menu_down{
+    display: block;
+}
+.menu_left{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 27px;
+    border: 1px solid grey;
+    width: 30%;
+    min-height: 200px;
+    /* clear: both; */
+    float: left;
+}
+.menu_left>ul{
+    background-color:coral
+}
+.menu_left a{
+    display: block;
+}
+.menu_left a:hover{
+    background-color:orange;
+    color: green;
+}
+.logo_left{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 30px;
+    /* border: 1px solid rgb(213, 195, 195); */
+    width: 30%;
+    min-height: 400px;
+}
+/* trang chủ */
+
+
+/* style trang giới thiệu */
+.content{
+    width: 68%;
+    float: right;
+    margin-top: 20px;
+    text-align: justify;
+}
+/* chân trang */
+footer{
+    background-color:orange;
+    /* display: flex; */
+    max-height: 150px;
+    line-height: 150px;
+    justify-content: center;
+    clear: both;
+    text-align: center;
+}
+/* sơ đồ tổ chức */
+.sodo{
+    text-align: center;
+    border: 1px solid rgb(213, 195, 195);
+    padding: 20px;
+    width: 68%;
+    float: right;
+    margin-top: 20px;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bang th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.title{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+} 
+/* Trang tin tức */
+.bantin{
+    margin-left: 30px;
+    border: 1px solid rgb(213, 195, 195);
+    width: 66%;
+    float: right;
+    margin-top: 20px;
+    min-height: 100px;
+    border-radius: 10px;
+}
+.bantin img{
+    padding: 20px;
+    float: left;
+    width: 200px;
+}
+. p{
+    font-size: 20px;
+}
+.title_tin{
+    color: red;
+    font-size: 20px;
+}
+.bantin a:hover {
+    color:brown;
+    /* text-decoration: underline; */
+}
+/* style tra cưú*/
+.tracuu{
+    margin-top: 20px;
+    float: left;
+    max-width: 30%;
+
+}
+.singer{
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    width: 60%;
+    border: 1px solid grey;
+}
+.icon{
+    width: 50px;
+    height: 70px;
+    float: left;
+}
+.singer h1{
+    margin: 24px;
+    float: left;
+    color: blueviolet;
+}
+.singer h3{
+    color: rgb(235, 8, 235);
+    font-size: 20px;
+    clear: both;
+}
+.from-input{
+    margin-top: 20px;
+    border: 1px solid grey;
+    width: 30%;
+    height: 30px;
+    padding: 0 20px;
+    transition: 0.25s ease;
+}
+.from-input:focus{
+    border-color: blueviolet;
+}
+.but{
+    border-radius: 30px;
+}
+/* Lien He */
+.login {
+    width: 68%;
+    min-height: 800px;
+    border: 1px solid grey;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+}
+h3{
+    font-size: 27px;
+    margin-top: 20px;
+    color: #868787;
+    font-family: sans-serif;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border: 1px solid grey;
+    padding-left:30px;
+    outline: none; 
+}
+button {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #45a049;
+    color: white;
+}
+
+button:hover {
+    font-size: 15px;
+}
+
+/* noi nhap y kien sinh vien */
+.form_kien {
+    border: 1px solid grey;
+    width: 50%;
+    min-height: 300px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+    clear: both;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.form_kien input{
+    padding: 10px;
+    width: 60%;
+    /* float: left; */
+    clear: both;
+}
+.form_kien h4{
+    margin-bottom: 20px;
+    color: #45a049;
+    /* float: left; */
+}
+.form_kien1 h4{
+    margin-bottom: 20px;
+    color: #45a049;
+    /* float: left; */
+}
+
+.form_kien1 {
+    border: 1px solid grey;
+    width: 50%;
+    min-height: 300px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+.container_form{
+    display: flex;
+}
+.thuvien{
+    text-align: justify;
+    padding: 30px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    width: 66%;
+    float: right;
+    margin-top: 20px;
+    min-height: 900px;
+    border-radius: 10px;
+}
